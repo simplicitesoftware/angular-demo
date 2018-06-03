@@ -1,3 +1,6 @@
+![Simplicit&eacute; Software](https://www.simplicite.io/resources/logos/logo250.png)
+* * *
+
 Angular&reg; demo
 =================
 
