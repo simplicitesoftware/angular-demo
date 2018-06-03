@@ -7,6 +7,7 @@ let app = Simplicite.session({
 	password: 'simplicite',
 	debug: true
 });
+
 app.login().then(function(params) {
 	console.log('Logged in as ' + params.username);
 	return app.getGrant(); // next promise
