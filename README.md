@@ -4,7 +4,9 @@
 Angular&reg; demo
 =================
 
-This project is a **very basic** web frontend demo using the [Angular&reg;](https://angular.io) framework.
+This project is a **very basic** web frontend demo using
+the [Simplicit&eacute;&reg; node.js &amp; browser JavaScript library](https://github.com/simplicitesoftware/nodejs-api)
+and the [Angular&reg;](https://angular.io) framework.
 
 Prerequisites:
 
