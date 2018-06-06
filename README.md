@@ -10,19 +10,27 @@ and the [Angular&reg;](https://angular.io) framework.
 
 Prerequisites:
 
-	sudo npm install -g @angular/cli
+```bash
+sudo npm install -g @angular/cli
+```
 
 Install:
 
-	npm install
+```bash
+npm install
+```
 
 R(un in dev mode:
 
-	ng serve [--port <port, e.g. 3000>] [--public-host <public host name>]
+```bash
+ng serve [--port <port, e.g. 3000>] [--public-host <public host name>]
+```
 
 Build:
 
-	ng build
+```bash
+ng build
+```
 
 License
 =======
