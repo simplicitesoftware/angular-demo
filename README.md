@@ -20,7 +20,7 @@ Install:
 npm install
 ```
 
-R(un in dev mode:
+Run in dev mode:
 
 ```bash
 ng serve [--port <port, e.g. 3000>] [--public-host <public host name>]
