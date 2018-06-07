@@ -11,7 +11,7 @@ and the [Angular&reg;](https://angular.io) framework.
 Prerequisites:
 
 ```bash
-sudo npm install -g @angular/cli
+sudo npm install -g @angular/cli serve
 ```
 
 Install:
@@ -26,10 +26,16 @@ Run in dev mode:
 ng serve [--port <port, e.g. 3000>] [--public-host <public host name>]
 ```
 
-Build:
+Build for prod:
 
 ```bash
 ng build
+```
+
+Serve prod:
+
+```bash
+serve -l 3000 dist/angular-demo
 ```
 
 License
