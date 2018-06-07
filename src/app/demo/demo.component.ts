@@ -7,6 +7,7 @@ import Simplicite from 'simplicite';
 	styleUrls: ['./demo.component.css']
 })
 export class DemoComponent implements OnInit {
+	error = '';
 	grant = {};
 	products = [];
 
@@ -37,7 +38,8 @@ export class DemoComponent implements OnInit {
 				});
 			});
 		}).fail(function(reason) {
-			console.log('Login failed (status: ' + reason.status + ', message: ' + reason.message + ')');
+			self.error = 'Login failed (status: ' + reason.status + ', message: ' + reason.message + ')';
+			self.cdr.detectChanges();
 		});
 	}
 }
