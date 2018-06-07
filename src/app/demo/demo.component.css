@@ -1,16 +1,9 @@
-div {
-	font-family: Verdana, Arial, sans-serif;
-}
 table, tr, th, td  {
 	border-collapse: collapse;
 	border: none 0;
 }
 th, td {
 	padding: 10px;
-}
-#logo {
-	width: 200px;
-	max-width: 100%;
 }
 #products .name {
 	font-weight: bold;
