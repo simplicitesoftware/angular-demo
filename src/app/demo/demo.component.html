@@ -1,1 +1,5 @@
-<p>Hello {{ user }}!</p>
+<div *ngIf="message">{{ message }}</div>
+<p *ngIf="grant.login">Hello {{ grant.login }}!</p>
+<ul *ngIf="products">
+	<li *ngFor="let item of products">{{ item.demoPrdName }} ({{ item.demoPrdReference }})</li>
+</ul>
