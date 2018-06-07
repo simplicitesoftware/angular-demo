@@ -1,4 +1,8 @@
-h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #369;
+#demo {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+}
+#logo {
+	width: 200px;
+	max-width: 100%;
 }

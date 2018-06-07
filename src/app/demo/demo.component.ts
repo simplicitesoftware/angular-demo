@@ -30,7 +30,7 @@ export class DemoComponent implements OnInit {
 				self.grant = grant;
 				self.cdr.detectChanges();
 				let prd = self.app.getBusinessObject('DemoProduct');
-				prd.search().then(function(list) {
+				prd.search(null, { inlineThumbs: true }).then(function(list) {
 					if (self.debug) console.log(list);
 					self.products = list;
 					self.cdr.detectChanges();
