@@ -20,19 +20,19 @@ Install:
 npm install
 ```
 
-Run in dev mode:
+Run in development mode:
 
 ```bash
 ng serve [--port <port, e.g. 3000>] [--public-host <public host name>]
 ```
 
-Build for prod:
+Build for production:
 
 ```bash
 ng build
 ```
 
-Serve prod:
+Run in production mode:
 
 ```bash
 serve -l 3000 dist/angular-demo
