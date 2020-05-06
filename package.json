@@ -1,6 +1,6 @@
 {
   "name": "angular-demo",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -22,7 +22,7 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
-    "simplicite": "^1.0.12"
+    "simplicite": "^1.0.13"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.4",
