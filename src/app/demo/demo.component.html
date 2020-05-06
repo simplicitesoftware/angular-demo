@@ -1,14 +1,10 @@
 <div *ngIf="error" class="error">Error: {{ error }}</div>
 <div *ngIf="grant['login']">Hello {{ grant['login'] }}!</div>
-<table *ngIf="products" id="products">
-	<tbody>
-		<tr *ngFor="let item of products">
-			<td><img src="data:image/png;base64,{{ item.demoPrdPicture.thumbnail }}" alt="Picture"/></td>
-			<td>
-				<div class="name">{{ item.demoPrdName }}</div>
-				<div class="reference">{{ item.demoPrdReference }}</div>
-				<div class="description">{{ item.demoPrdDescription }}</div>
-			</td>
-		</tr>
-	</tbody>
-</table>
+<ul *ngIf="products" id="products">
+    <li *ngFor="let item of products">
+        <img src="data:{{ item.demoPrdPicture.mime }};base64,{{ item.demoPrdPicture.content }}" alt="Picture"/>
+        <h1>{{ item.demoPrdName }}</h1>
+        <h2>{{ item.demoPrdReference }}</h2>
+        <p>{{ item.demoPrdDescription }}</p>
+    </li>
+</ul>

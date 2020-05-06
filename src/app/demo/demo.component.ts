@@ -11,8 +11,8 @@ export class DemoComponent implements OnInit {
 	grant = {};
 	products = [];
 
-	private debug = false;
-	private app;
+	private debug: boolean = false;
+	private app: any;
 	constructor(private cdr: ChangeDetectorRef) {
 		this.app = Simplicite.session({
 			url: 'https://demo.dev.simplicite.io',
@@ -24,21 +24,21 @@ export class DemoComponent implements OnInit {
 
 	ngOnInit() {
 		let self = this;
-		self.app.login().then(function(params) {
+		self.app.login().then((params: any) => {
 			console.log('Logged in as ' + params.username);
 			self.app.getGrant().then(function(grant) {
 				if (self.debug) console.log(grant);
 				self.grant = grant;
 				self.cdr.detectChanges();
 				let prd = self.app.getBusinessObject('DemoProduct');
-				prd.search(null, { inlineThumbs: true }).then(function(list) {
+				prd.search(null, { inlineDocuments: [ 'demoPrdPicture' ] }).then((list: any) => {
 					if (self.debug) console.log(list);
 					self.products = list;
 					self.cdr.detectChanges();
 				});
 			});
-		}).fail(function(reason) {
-			self.error = 'Login failed (status: ' + reason.status + ', message: ' + reason.message + ')';
+		}).fail((err: any) => {
+			self.error = err.message;
 			self.cdr.detectChanges();
 		});
 	}
