@@ -10,34 +10,32 @@ This project is a **very basic** web frontend demo using
 the [Simplicit&eacute;&reg; node.js &amp; browser JavaScript library](https://github.com/simplicitesoftware/nodejs-api)
 and the [Angular&reg;](https://angular.io) framework.
 
-Prerequisites:
-
-```bash
-sudo npm install -g @angular/cli serve
-```
-
-Install:
+Install
+-------
 
 ```bash
 npm install
 ```
 
-Run in development mode:
+Run in development mode
+-----------------------
 
 ```bash
 ng serve [--port <port, e.g. 3000>] [--public-host <public host name>]
 ```
 
-Build for production:
+Build for production
+--------------------
 
 ```bash
 ng build
 ```
 
-Run in production mode:
+Run in production mode
+----------------------
 
 ```bash
-serve -l 3000 dist/angular-demo
+npm run serve
 ```
 
 License
