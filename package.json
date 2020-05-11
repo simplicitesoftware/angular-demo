@@ -1,9 +1,9 @@
 {
   "name": "angular-demo",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng --port=3000 serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -23,7 +23,7 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
-    "simplicite": "^1.1.0"
+    "simplicite": "^1.1.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.4",
@@ -44,6 +44,7 @@
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~3.8.3"
+    "typescript": "~3.8.3",
+    "serve": "latest"
   }
 }
