@@ -1,6 +1,6 @@
 {
   "name": "angular-demo",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "scripts": {
     "ng": "ng",
     "start": "ng --port=3000 serve",
@@ -30,13 +30,13 @@
     "@angular/cli": "^9.1.12",
     "@angular/compiler-cli": "^9.1.12",
     "@angular/language-service": "^9.1.12",
-    "@types/jasmine": "^3.5.12",
+    "@types/jasmine": "^3.5.14",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.12.54",
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "^5.0.9",
+    "karma": "^5.2.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~3.0.1",
