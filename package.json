@@ -1,6 +1,6 @@
 {
   "name": "angular-demo",
-  "version": "1.1.16",
+  "version": "2.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng --port=3000 serve",
@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "serve": "serve -l 3000 dist/angular-demo"
+    "serve": "serve -l 3000 dist/angular-demo",
+    "ncu": "ncu"
   },
   "private": true,
   "dependencies": {
@@ -23,7 +24,7 @@
     "rxjs": "~7.0.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4",
-    "simplicite": "latest"
+    "simplicite": "^2.0.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1102.12",
@@ -41,6 +42,7 @@
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~4.0.1",
     "karma-jasmine-html-reporter": "^1.6.0",
+    "npm-check-updates": "^11.8.5",
     "protractor": "~7.0.0",
     "serve": "^11.3.2",
     "ts-node": "~9.1.1",
