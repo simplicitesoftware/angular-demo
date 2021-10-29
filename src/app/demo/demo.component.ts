@@ -37,7 +37,7 @@ export class DemoComponent implements OnInit {
 					self.cdr.detectChanges();
 				});
 			});
-		}).fail((err: any) => {
+		}).catch((err: any) => {
 			self.error = err.message;
 			self.cdr.detectChanges();
 		});

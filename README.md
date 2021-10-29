@@ -21,14 +21,14 @@ Run in development mode
 -----------------------
 
 ```bash
-ng serve [--port <port, e.g. 3000>] [--public-host <public host name>]
+npm run serve
 ```
 
 Build for production
 --------------------
 
 ```bash
-ng build
+npm run build
 ```
 
 Run in production mode
