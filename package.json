@@ -1,7 +1,8 @@
 {
   "name": "angular-demo",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "scripts": {
+    "update": "ng update",
     "start": "ng --port=3000 serve",
     "build": "ng build",
     "test": "ng test",
@@ -23,7 +24,7 @@
     "rxjs": " 7.4.0",
     "tslib": "^2.3.1",
     "zone.js": "^0.11.4",
-    "simplicite": "^2.2.7"
+    "simplicite": "^2.2.8"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^13.0.1",
