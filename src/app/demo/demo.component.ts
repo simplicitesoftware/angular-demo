@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import Simplicite from 'simplicite';
+import simplicite from 'simplicite';
 
 @Component({
 	selector: 'app-demo',
@@ -14,7 +14,7 @@ export class DemoComponent implements OnInit {
 	private debug: boolean = false;
 	private app: any;
 	constructor(private cdr: ChangeDetectorRef) {
-		this.app = Simplicite.session({
+		this.app = simplicite.session({
 			url: 'https://demo.dev.simplicite.io',
 			username: 'website',
 			password: 'simplicite',
