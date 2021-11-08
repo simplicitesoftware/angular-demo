@@ -1,6 +1,6 @@
 {
   "name": "angular-demo",
-  "version": "2.2.9",
+  "version": "2.2.10",
   "scripts": {
     "update": "ng update",
     "start": "ng --port=3000 serve",
@@ -24,7 +24,7 @@
     "rxjs": " 7.4.0",
     "tslib": "^2.3.1",
     "zone.js": "^0.11.4",
-    "simplicite": "^2.2.9"
+    "simplicite": "^2.2.10"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^13.0.1",
@@ -33,11 +33,11 @@
     "@angular/language-service": "^13.0.0",
     "@types/jasmine": "^3.10.2",
     "@types/jasminewd2": "^2.0.10",
-    "@types/node": "^16.11.6",
+    "@types/node": "^16.11.7",
     "codelyzer": "^6.0.2",
     "jasmine-core": "^3.10.1",
     "jasmine-spec-reporter": "^7.0.0",
-    "karma": "^6.3.7",
+    "karma": "^6.3.8",
     "karma-chrome-launcher": "^3.1.0",
     "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "^4.0.1",
