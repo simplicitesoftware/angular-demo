@@ -1,17 +1,13 @@
 {
   "name": "angular-demo",
+  "description": "Angular demo",
   "version": "2.2.10",
-  "scripts": {
-    "update": "ng update",
-    "start": "ng --port=3000 serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "serve": "serve -l 3000 dist/angular-demo",
-    "ncu": "ncu"
+  "author": "Simplicite Software <contact@simplicitesoftware.com> (http://www.simplicitesoftware.com/)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplicitesoftware/angular-demo.git"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^13.0.0",
     "@angular/common": "^13.0.0",
@@ -48,5 +44,15 @@
     "ts-node": "^10.4.0",
     "tslint": "^6.1.3",
     "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "update": "ng update",
+    "start": "ng --port=3000 serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "serve": "serve -l 3000 dist/angular-demo",
+    "ncu": "ncu"
   }
 }
