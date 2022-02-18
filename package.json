@@ -1,7 +1,7 @@
 {
   "name": "angular-demo",
   "description": "Angular demo",
-  "version": "2.2.21",
+  "version": "2.2.22",
   "author": "Simplicite Software <contact@simplicitesoftware.com> (http://www.simplicitesoftware.com/)",
   "license": "Apache-2.0",
   "repository": {
@@ -20,11 +20,11 @@
     "rxjs": "7.5.4",
     "tslib": "^2.3.1",
     "zone.js": "^0.11.4",
-    "simplicite": "^2.2.21"
+    "simplicite": "^2.2.22"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^13.2.3",
-    "@angular/cli": "^13.2.3",
+    "@angular-devkit/build-angular": "^13.2.4",
+    "@angular/cli": "^13.2.4",
     "@angular/compiler-cli": "^13.2.3",
     "@angular/language-service": "^13.2.3",
     "@types/jasmine": "^3.10.3",
