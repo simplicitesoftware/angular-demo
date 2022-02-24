@@ -43,7 +43,8 @@
     "serve": "^13.0.2",
     "ts-node": "^10.5.0",
     "tslint": "^6.1.3",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "jszip-cli": "^1.4.24"
   },
   "scripts": {
     "update": "ng update",
@@ -53,6 +54,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "serve": "serve -l 3000 dist/angular-demo",
+    "zip": "jszip -c jszip.config.json",
     "ncu": "ncu"
   }
 }

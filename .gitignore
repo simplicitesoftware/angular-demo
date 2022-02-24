@@ -4,6 +4,7 @@
 
 # compiled output
 /dist
+/site.zip
 /tmp
 /out-tsc
 # Only exists if Bazel was run
@@ -48,5 +49,6 @@ testem.log
 **.bak
 **.new
 **.tmp
+**.log
 **/Thumbs.db
 **/.DS_Store
