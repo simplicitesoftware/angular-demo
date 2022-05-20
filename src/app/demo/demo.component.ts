@@ -14,6 +14,7 @@ export class DemoComponent implements OnInit {
   private debug = false;
   private app: any;
   constructor(private cdr: ChangeDetectorRef) {
+    // Explicit URL needed for a standalone deployment, remove it when deploying in Simplicité
     this.app = simplicite.session({
       url: 'https://demo.dev.simplicite.io',
       username: 'website',
