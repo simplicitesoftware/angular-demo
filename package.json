@@ -1,7 +1,7 @@
 {
   "name": "angular-demo",
   "description": "Angular demo",
-  "version": "2.2.33",
+  "version": "2.2.34",
   "author": "Simplicite Software <contact@simplicitesoftware.com> (http://www.simplicitesoftware.com/)",
   "license": "Apache-2.0",
   "repository": {
@@ -18,7 +18,7 @@
     "@angular/platform-browser-dynamic": "^13.3.11",
     "@angular/router": "^13.3.11",
     "rxjs": "7.5.6",
-    "simplicite": "^2.2.33",
+    "simplicite": "^2.2.34",
     "tslib": "^2.4.0",
     "zone.js": "^0.11.8"
   },
@@ -46,7 +46,7 @@
     "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "^5.1.0",
     "karma-jasmine-html-reporter": "^2.0.0",
-    "npm-check-updates": "^16.14.2",
+    "npm-check-updates": "^16.14.4",
     "protractor": "^7.0.0",
     "serve": "^14.2.1",
     "ts-node": "^10.9.1",
