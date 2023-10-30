@@ -25,23 +25,22 @@ export class DemoComponent implements OnInit {
     this.app.debug(this.app.parameters);
   }
 
-  ngOnInit() {
-    this.app.login().then((params: any) => {
-      this.app.info('Logged in as ' + params.username);
-      this.app.getGrant().then((grant: any) => {
-        this.app.debug(grant);
-        this.grant = grant;
-        this.cdr.detectChanges();
-        const prd = this.app.getBusinessObject('DemoProduct');
-        prd.search(null, { inlineDocuments: [ 'demoPrdPicture' ] }).then((list: any[]) => {
-          this.app.debug(list);
-          this.products = list;
-          this.cdr.detectChanges();
-        });
-      });
-    }).catch((err: any) => {
+  async ngOnInit() {
+    try {
+      const user: any = await this.app.login();
+      this.app.info('Logged in as ' + user.username);
+      const grant: any = await this.app.getGrant();
+      this.app.debug(grant);
+      this.grant = grant;
+      this.cdr.detectChanges();
+      const prd = this.app.getBusinessObject('DemoProduct');
+      const list: any[] = await prd.search(null, { inlineDocuments: [ 'demoPrdPicture' ] });
+      this.app.debug(list);
+      this.products = list;
+      this.cdr.detectChanges();
+    } catch(err: any) {
       this.error = err.message;
       this.cdr.detectChanges();
-    });
+    }
   }
 }
