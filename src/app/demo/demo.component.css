@@ -1,11 +1,14 @@
 .error {
-	background: #FF0000;
-	color: #FFFFFF;
+	background: #f00;
+	color: #fff;
 	padding: 12px;
 	border-radius: 8px;
 }
+img {
+	max-width: 75%;
+}
 h1 {
-	color: #222;
+	color: #999;
 	font-size: 1.5em;
 }
  h2 {
@@ -23,16 +26,16 @@ ul {
 	padding-inline-end: 0;
 }
 li {
-	background-color: #FFFFFF;
+	background-color: #333;
 	display: inline-block;
 	vertical-align: top;
-	border: solid .0625rem #eee;
+	border: solid .0625rem #222;
 	border-radius: .5rem;
-	box-shadow: .5rem .5rem 1rem #ddd;
-	margin: 10px;
-	padding: 10px;
-	min-width: 200px;
-	max-width: 250px;
-	height: 350px;
-	overflow: auto;
+	box-shadow: .5rem .5rem 1rem #222;
+	margin: .75rem;
+	padding: .75rem;
+	min-width: 15rem;
+	max-width: 15rem;
+	height: 22.5rem;
+	overflow: hidden;
 }
