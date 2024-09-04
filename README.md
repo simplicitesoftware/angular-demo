@@ -7,7 +7,7 @@ Angular&reg; demo
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=simplicitesoftware_angular-demo&metric=alert_status)](https://sonarcloud.io/dashboard?id=simplicitesoftware_angular-demo)
 
 This project is a **very basic** web frontend demo using
-the [Simplicit&eacute;&reg; node.js &amp; browser JavaScript library](https://github.com/simplicitesoftware/nodejs-api)
+the [Simplicit&eacute;&reg; node.js&reg; &amp; brower JavaScript API](https://www.npmjs.com/package/simplicite)
 and the [Angular&reg;](https://angular.io) framework.
 
 Install
@@ -48,7 +48,7 @@ npm run serve
 License
 =======
 
-Copyright 2018-2021 Simplicit&eacute; Software
+Copyright 2018-2024 Simplicit&eacute; Software
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
