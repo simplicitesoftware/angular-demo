@@ -4,11 +4,7 @@
 Angular&reg; demo
 =================
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=simplicitesoftware_angular-demo&metric=alert_status)](https://sonarcloud.io/dashboard?id=simplicitesoftware_angular-demo)
-
-This project is a **very basic** web frontend demo using
-the [Simplicit&eacute;&reg; node.js&reg; &amp; brower JavaScript API](https://www.npmjs.com/package/simplicite)
-and the [Angular&reg;](https://angular.io) framework.
+This project is a **very basic** web frontend demo written in [Angular&reg;](https://angular.io).
 
 Install
 -------
