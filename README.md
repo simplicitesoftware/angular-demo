@@ -1,59 +1,59 @@
-![Simplicit&eacute; Software](https://platform.simplicite.io/logos/logo250-grey.png)
-* * *
+# AngularDemoNew
 
-Angular&reg; demo
-=================
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
-This project is a **very basic** web frontend demo written in [Angular&reg;](https://angular.io).
+## Development server
 
-Install
--------
+To start a local development server, run:
 
 ```bash
-npm install
+ng serve
 ```
 
-Check syntax and rules
-----------------------
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Code scaffolding
+
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
 ```bash
-npm run lint
+ng generate component component-name
 ```
 
-Run in development mode
------------------------
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
 ```bash
-npm run start
+ng generate --help
 ```
 
-Build for production
---------------------
+## Building
+
+To build the project run:
 
 ```bash
-npm run build
+ng build
 ```
 
-Run in production mode
-----------------------
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
 ```bash
-npm run serve
+ng test
 ```
 
-License
-=======
+## Running end-to-end tests
 
-Copyright 2018-2024 Simplicit&eacute; Software
+For end-to-end (e2e) testing, run:
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at:
+```bash
+ng e2e
+```
 
-[](http://www.apache.org/licenses/LICENSE-2.0)
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
