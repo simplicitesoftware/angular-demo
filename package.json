@@ -40,7 +40,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng --port=3000 serve",
+    "start": "ng serve --host=0.0.0.0 --port=3000 --disable-host-check",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
