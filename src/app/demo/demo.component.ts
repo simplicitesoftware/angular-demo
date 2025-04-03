@@ -21,7 +21,7 @@ export class DemoComponent implements OnInit {
       password: 'simplicite',
       debug: this.debug
     });
-    this.app.info('Version: ' + simplicite.constants.MODULE_VERSION);
+    this.app.info(`Version: ${simplicite.constants.MODULE_VERSION}`);
     this.app.debug(this.app.parameters);
   }
 
