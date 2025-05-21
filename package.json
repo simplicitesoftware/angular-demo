@@ -1,7 +1,7 @@
 {
   "name": "angular-demo",
   "description": "Angular demo",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "author": "Simplicite Software <contact@simplicitesoftware.com> (http://www.simplicitesoftware.com/)",
   "license": "Apache-2.0",
   "repository": {
@@ -18,7 +18,7 @@
     "@angular/platform-browser-dynamic": "^19.2.11",
     "@angular/router": "^19.2.11",
     "rxjs": "~7.8.0",
-    "simplicite": "3.1.2",
+    "simplicite": "3.1.3",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
@@ -42,6 +42,7 @@
     "ng": "ng",
     "start": "ng serve --host=0.0.0.0 --port=3000 --disable-host-check",
     "build": "ng build",
+    "serve": "ng serve",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "update": "ng update",
