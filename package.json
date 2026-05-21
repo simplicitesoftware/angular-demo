@@ -1,7 +1,7 @@
 {
   "name": "angular-demo",
   "description": "Angular demo",
-  "version": "3.1.6",
+  "version": "3.1.7",
   "author": "Simplicite Software <contact@simplicitesoftware.com> (http://www.simplicitesoftware.com/)",
   "license": "Apache-2.0",
   "repository": {
@@ -18,7 +18,7 @@
     "@angular/platform-browser": "^21.2.12",
     "@angular/router": "^21.2.12",
     "rxjs": "~7.8.0",
-    "simplicite": "3.1.6",
+    "simplicite": "3.1.7",
     "tslib": "^2.3.0",
     "zone.js": "0.16.1"
   },
